@@ -3,7 +3,7 @@ def display_board
 
   output = capture_puts{ display_board(board) }
   rows = output.split("\n")
-
+puts
   rows[0] = "   |   |   "
   rows[1] = "-----------"
   rows[2] = "   |   |   "
